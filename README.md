@@ -43,7 +43,7 @@ Fields
   - salary: Integer
   - performance_review: Integer
 - Deleting
-`DELETE /employee/{employee-id}
+`DELETE /employee/{employee-id}`
 ### EmployeeSupervisor
 This table represents the many to many report relationship between employees.
 - Read
@@ -64,7 +64,7 @@ Rank can't be changed.
 Fields
   - name: String
 - Deleting
-`DELETE /role/{role-id}
+`DELETE /role/{role-id}`
 #### Promotion
 Promote a employee one rank higher. Employee's supervisor will be changed to the employee first supervisor's supervisor
 `PUT /promote/{employee-id}`
