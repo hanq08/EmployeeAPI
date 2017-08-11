@@ -72,7 +72,7 @@ Role can't be created by the api. <br>
 `GET /role` <br>
 `GET /role/{role-id}` 
 - Update <br>
-`PUT /employee/{role-id}` <br>
+`PUT /role/{role-id}` <br>
 Rank can't be changed. <br>
 Fields 
   - name: String
