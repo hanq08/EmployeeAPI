@@ -1,6 +1,6 @@
 # EmployeeAPI
 ## Overview
-This api is a http-based api built by django rest framework.Below is the ER diagram of the database schema.
+This api is a http-based api built by django rest framework. Below is the ER diagram of the database schema.
 ![alt text](https://s3.amazonaws.com/luluwondering/er.jpg)
 ## Prerequisites
 - Python 2.7
