@@ -22,6 +22,9 @@ This api is a http-based api built by django rest framework. Below is the ER dia
 - Tests <br>
 `python manage.py test`
 ## Reference
+### Hierarchy View
+View the organization hierarchy. <br>
+`GET /hierarchy`
 ### Employee
 - Read <br>
 `GET /employee` <br>
