@@ -9,9 +9,12 @@ This api is a http-based api built by django rest framework. Below is the ER dia
 - pytz==2017.2
 ## Quickstart
 - Create virtual environment with python2.7 <br>
-`virtualenv -p /usr/local/bin/python27 venv `
+`virtualenv -p /usr/local/bin/python27 venv ` <br>
+`source activate venv`
 - Install dependencies <br>
-`pip install -r requirements.txt`
+`pip install -r requirements.txt` 
+- Migrate database <br>
+`python manage.py migrate`
 - Load initial data for the role table which represents the organization hierarchy: CEO --> VP --> Director --> Manager --> Individual contributor <br>
 `python manage.py loaddata role.json`
 - Run django development server <br>
@@ -19,6 +22,9 @@ This api is a http-based api built by django rest framework. Below is the ER dia
 - Tests <br>
 `python manage.py test`
 ## Reference
+### Hierarchy View
+View the organization hierarchy. <br>
+`GET /hierarchy`
 ### Employee
 - Read <br>
 `GET /employee` <br>
